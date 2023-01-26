@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel ="icon" href="https://cdn-2.tstatic.net/ternate/foto/bank/images2/barcelona-gavi-ibgojldkabd.jpg">
+  <title>object</title>
+  <style>
+  body {
+background: linear-gradient(90deg, rgba(0,36,17,1) 17%, rgba(9,121,93,1) 39%, rgba(255,42,0,1) 78%);
+         
+   color: red;
+   font-family:'Open Sans', cursive;
+   font-size: 20px;
+   letter-spacing: 4px;
+}
+.gambar {
+  width: 100px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+  </style>
+</head>
+<body>
+  <img class ="gambar" src="https://cdn-2.tstatic.net/ternate/foto/bank/images2/barcelona-gavi-ibgojldkabd.jpg">
+
+  <script>
+   class hewan {
+ constructor(nama, habitat, alat_pernapasan){
+   this.nama = nama;
+   this.habitat = habitat;
+   this.alat_pernapasan = alat_pernapasan;
+            }
+         nama;
+         habitat;
+         alat_pernapasan;
+            
+        }
+   var hewan1 = new hewan(" Buaya ", " Darat dan Air ", " Paru-Paru ");
+   document.write(" Nama Hewannya : " + hewan1.nama + '<br />');
+   document.write(" Habitatnya : " + hewan1.habitat + '<br />' );
+   document.write(" Berbapas Menggunakan : " + hewan1.alat_pernapasan + '<br />');
+   
+   document.write('<hr />')
+   
+   var hewan2 = new hewan(" Ayam ", " Darat ", " Kantong Udara  ");
+   document.write(" Nama Hewannya : " + hewan2.nama + '<br />');
+   document.write(" Habitatnya : " + hewan2.habitat + '<br />' );
+   document.write(" Berbapas Menggunakan: " + hewan2.alat_pernapasan + '<br />');
+   
+   document.write('<hr />')
+   
+   var hewan3 = new hewan(" Cacing ", " Darat dan Air ", " Kulitnya ");
+   document.write(" Nama Hewannya : " + hewan3.nama + '<br />');
+   document.write(" Habitatnya : " + hewan3.habitat + '<br />' );
+   document.write(" Berbapas Menggunakan : " + hewan3.alat_pernapasan + '<br />');
+   
+   document.write('<hr />')
+    </script>
+</body>
+</html>
